@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:tns="http://samirhasanov.com/spring/ws/domain" 
+           targetNamespace="http://samirhasanov.com/spring/ws/domain" 
+           elementFormDefault="qualified">
+    
+    <xs:element name="User">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long" />
+                <xs:element name="fullname">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="^[a-zA-Z]$" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="age" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>       
+    <xs:element name="GetUsersRequest">
+        <xs:complexType />
+    </xs:element>
+    <xs:element name="GetUsersResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="tns:User" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetUserByIdRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetUserByIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tns:User" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

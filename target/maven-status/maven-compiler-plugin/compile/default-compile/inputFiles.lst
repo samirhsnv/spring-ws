@@ -1,0 +1,12 @@
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\config\WsConfig.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\domain\ObjectFactory.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\endpoint\UserEndpoint.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\domain\GetUsersResponse.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\main\BasicApplication.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\domain\GetUserByIdRequest.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\dao\IUserDao.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\domain\GetUserByIdResponse.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\dao\UserDao.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\domain\GetUsersRequest.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\domain\User.java
+D:\PROJECTS\SpringCertification\SpringCertificationWsBoot\src\main\java\com\samirhasanov\spring\ws\domain\package-info.java

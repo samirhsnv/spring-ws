@@ -1,0 +1,12 @@
+com\samirhasanov\spring\ws\domain\GetUsersRequest.class
+com\samirhasanov\spring\ws\dao\IUserDao.class
+com\samirhasanov\spring\ws\domain\ObjectFactory.class
+com\samirhasanov\spring\ws\domain\GetUserByIdResponse.class
+com\samirhasanov\spring\ws\domain\User.class
+com\samirhasanov\spring\ws\domain\package-info.class
+com\samirhasanov\spring\ws\domain\GetUsersResponse.class
+com\samirhasanov\spring\ws\endpoint\UserEndpoint.class
+com\samirhasanov\spring\ws\main\BasicApplication.class
+com\samirhasanov\spring\ws\config\WsConfig.class
+com\samirhasanov\spring\ws\domain\GetUserByIdRequest.class
+com\samirhasanov\spring\ws\dao\UserDao.class
